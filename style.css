@@ -6,10 +6,8 @@
 body {
     font-family: sans-serif;
     background-color: var(--secondary-color);
-    background-image: linear-gradient(
-        rgb(192, 234, 240),
-        rgb(120, 172, 167)
-    );
+    background-image: linear-gradient(rgb(192, 234, 240),
+            rgb(120, 172, 167));
 }
 
 main.container {
