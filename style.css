@@ -48,8 +48,17 @@ main.container {
 /* Media queries */
 
 @media (max-width: 768px) {
-    .navbar {
+    .navbar-brand {
         display: none;
+    }
+    .tiny-list {
+        text-align: center!important;
+        background-color: #ebebeb!important;
+        margin: 10px!important;
+        border-radius: 13px!important;
+    }
+    nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+        padding: 2%;
     }
 }
 
