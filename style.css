@@ -1,0 +1,75 @@
+:root {
+    --primary-color: #000;
+    --secondary-color: #92dbdb;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: var(--secondary-color);
+    background-image: linear-gradient(
+        rgb(192, 234, 240),
+        rgb(120, 172, 167)
+    );
+}
+
+main.container {
+    min-height: 80vh;
+}
+
+.navbar {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.container {
+    max-width: 1140px;
+}
+
+.py-5 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.lead {
+    font-size: 1.5em;
+}
+
+.list-unstyled {
+    margin-left: 0;
+}
+
+.footer {
+    background-color: #f1f6f7;
+    padding: 2rem;
+}
+
+/* Media queries */
+
+@media (max-width: 768px) {
+    .navbar {
+        display: none;
+    }
+}
+
+/* CSS animations */
+
+.section {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.section.in-view {
+    opacity: 1;
+}
+
+section#conceitos-basicos {
+    padding: 1%;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    padding: 1%;
+}
