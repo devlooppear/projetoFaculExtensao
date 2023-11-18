@@ -2,6 +2,10 @@
 
 Este é o projeto "Educação Financeira para Jovens e Adolescentes". Este repositório contém um website dedicado a fornecer informações e recursos sobre educação financeira, especialmente direcionados para jovens e adolescentes.
 
+## Acesse aqui o site:
+
+https://devlooppear.github.io/projetoFaculExtensao/
+
 ## Sobre o Projeto
 
 O objetivo deste projeto é ajudar os jovens a aprender sobre dinheiro e como gerenciá-lo de forma eficaz. Para isso, o website inclui as seguintes seções:
